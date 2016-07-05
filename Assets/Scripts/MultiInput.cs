@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MultiInput {
+public static class MultiInput {
 	private static Vector3 touchPosition = Vector3.zero;
 
 	public static bool Touched(){
